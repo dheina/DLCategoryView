@@ -13,6 +13,7 @@
 		2791016B1DDF1DD900C88FB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279101691DDF1DD900C88FB6 /* Main.storyboard */; };
 		2791016D1DDF1DD900C88FB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2791016C1DDF1DD900C88FB6 /* Assets.xcassets */; };
 		279101701DDF1DD900C88FB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2791016E1DDF1DD900C88FB6 /* LaunchScreen.storyboard */; };
+		2791017A1DDF22CC00C88FB6 /* DLCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 279101791DDF22CC00C88FB6 /* DLCategoryView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		2791016C1DDF1DD900C88FB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2791016F1DDF1DD900C88FB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		279101711DDF1DD900C88FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		279101781DDF22CC00C88FB6 /* DLCategoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DLCategoryView.h; path = DLCategoryView/DLCategoryView.h; sourceTree = "<group>"; };
+		279101791DDF22CC00C88FB6 /* DLCategoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DLCategoryView.m; path = DLCategoryView/DLCategoryView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		2791015F1DDF1DD900C88FB6 /* DLCategoryView */ = {
 			isa = PBXGroup;
 			children = (
+				279101771DDF22B700C88FB6 /* DLCategoryView */,
 				279101631DDF1DD900C88FB6 /* AppDelegate.h */,
 				279101641DDF1DD900C88FB6 /* AppDelegate.m */,
 				279101661DDF1DD900C88FB6 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				279101611DDF1DD900C88FB6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		279101771DDF22B700C88FB6 /* DLCategoryView */ = {
+			isa = PBXGroup;
+			children = (
+				279101781DDF22CC00C88FB6 /* DLCategoryView.h */,
+				279101791DDF22CC00C88FB6 /* DLCategoryView.m */,
+			);
+			name = DLCategoryView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2791017A1DDF22CC00C88FB6 /* DLCategoryView.m in Sources */,
 				279101681DDF1DD900C88FB6 /* ViewController.m in Sources */,
 				279101651DDF1DD900C88FB6 /* AppDelegate.m in Sources */,
 				279101621DDF1DD900C88FB6 /* main.m in Sources */,
@@ -264,6 +278,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DLCategoryView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dheina.DLCategoryView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DLCategoryView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dheina.DLCategoryView;
 				PRODUCT_NAME = "$(TARGET_NAME)";

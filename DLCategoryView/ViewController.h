@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DLCategoryView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <DLCategoryViewDataSource,DLCategoryViewDelegate,UIScrollViewDelegate>
 
+@property(nonatomic, strong) IBOutlet DLCategoryView *categoryView;
 
 @end
 
